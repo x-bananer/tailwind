@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,26 +9,60 @@
   </head>
   <body>
     <!-- Width -->
+    <div class="bg-black text-white w-0">Hello</div>
+    <div class="bg-black text-white w-4">Hello</div>
+    <div class="bg-black text-white w-8">Hello</div>
+    <div class="bg-black text-white w-12">Hello</div>
+    <div class="bg-black text-white w-96">Hello</div>
 
     <!-- Percentages -->
+    <div class="bg-green-700 text-white w-1/4">Hello</div>
+    <div class="bg-green-700 text-white w-1/3">Hello</div>
+    <div class="bg-green-700 text-white w-1/2">Hello</div>
 
     <!-- Width of the viewport -->
+    <div class="bg-blue-500 text-white w-screen">Hello</div>
 
     <!-- 100% of container -->
+    <div class="bg-blue-500 text-white w-full">Hello</div>
 
     <!-- min/max content -->
+    <div class="bg-emerald-500 text-white my-2 w-min">w-min</div>
+    <div class="bg-emerald-500 text-white my-2 w-max">w-max</div>
 
     <!-- Arbitrary width -->
+    <div class="bg-pink-500 text-white w-[300px]">Hello</div>
 
     <!-- Max Width -->
+    <div class="bg-yellow-500 text-white max-w-sm mx-auto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+      pariatur perspiciatis repellat, in doloribus natus minima libero debitis
+      illum, accusantium ipsum repellendus sint animi et, explicabo laboriosam
+      ab optio maxime!
+    </div>
 
     <!-- Height (Most of the same options as widths) -->
+    <div class="flex items-end">
+      <div class="bg-orange-500 w-20 h-24">Hello</div>
+      <div class="bg-orange-500 w-20 h-32">Hello</div>
+      <div class="bg-orange-500 w-20 h-40">Hello</div>
+      <div class="bg-orange-500 w-20 h-48">Hello</div>
+      <div class="bg-orange-500 w-20 h-64">Hello</div>
+      <div class="bg-orange-500 w-20 h-96">Hello</div>
+    </div>
 
     <!-- Min Height -->
+    <div class="h-48 bg-red-200">
+      <div class="h-24 bg-red-600 min-h-full">Tailwind is awesome</div>
+    </div>
 
     <!-- Max Height -->
+    <div class="h-24 bg-orange-200">
+      <div class="h-48 bg-orange-500 max-h-full">Tailwind is awesome</div>
+    </div>
 
     <!-- Full screen height -->
+    <div class="bg-blue-200 text-white h-screen">Hello</div>
   </body>
 </html>
 
