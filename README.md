@@ -1,31 +1,33 @@
 # Tailwind CSS 3
 
-Custom documentation for Tailwind CSS 3. Quick reference with examples.
+Custom documentation for Tailwind CSS 3. Quick reference with theory and examples.
 
-## Catalog
+## Documentation
 
-[`index.html`](./index.html) contains the full examples catalog.
+Class groups, notes, and topic-based reference pages:
 
-## Topics
+- [Utility-First Basics](./01-utility-first/)
+- [Colors](./02-colors/)
+- [Container and Spacing](./03-container-spacing/)
+- [Typography](./04-typography/)
+- [Sizing](./05-sizing/)
+- [Layout and Position](./06-layout-position/)
+- [Backgrounds and Shadows](./07-backgrounds-shadows/)
+- [Borders and Radius](./08-borders/)
+- [Filters](./09-filters/)
+- [Interactivity](./10-interactivity/)
+- [Breakpoints](./11-breakpoints/)
+- [Columns](./12-columns/)
+- [Flexbox](./13-flex/)
+- [Grid](./14-grid/)
+- [Transforms and Transitions](./15-transform-transition/)
+- [Animation](./16-animation/)
+- [Customization and Config](./17-customization/)
+- [Dark Mode](./18-dark-mode/)
 
-- [`01-utility-first`](./01-utility-first/)
-- [`02-colors`](./02-colors/)
-- [`03-container-spacing`](./03-container-spacing/)
-- [`04-typography`](./04-typography/)
-- [`05-sizing`](./05-sizing/)
-- [`06-layout-position`](./06-layout-position/)
-- [`07-backgrounds-shadows`](./07-backgrounds-shadows/)
-- [`08-borders`](./08-borders/)
-- [`09-filters`](./09-filters/)
-- [`10-interactivity`](./10-interactivity/)
-- [`11-breakpoints`](./11-breakpoints/)
-- [`12-columns`](./12-columns/)
-- [`13-flex`](./13-flex/)
-- [`14-grid`](./14-grid/)
-- [`15-transform-transition`](./15-transform-transition/)
-- [`16-animation`](./16-animation/)
-- [`17-customization`](./17-customization/)
-- [`18-dark-mode`](./18-dark-mode/)
+## Examples
+
+Full examples catalog: [tailwind3-docs.netlify.app](https://tailwind3-docs.netlify.app/)
 
 ## Official Documentation
 
